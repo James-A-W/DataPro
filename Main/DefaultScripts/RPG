@@ -1,0 +1,11 @@
+local RPG = {}
+
+RPG.Run = function(Store)
+	Store:SetDefaultValues({
+	Money = 10,
+	Level = 1,
+	Experience = 0
+	})
+end
+
+return RPG
