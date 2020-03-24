@@ -1,0 +1,11 @@
+local Simulator = {}
+
+Simulator.Run = function(Store)
+	Store:SetDefaultValues({
+	Coins = 10,
+	Level = 1,
+	Gems = 0
+	})
+end
+
+return Simulator
