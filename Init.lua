@@ -10,7 +10,6 @@ end
 if RunService:IsStudio() then
 	print("Thank you for using DataPro.")
 	print("If you need any help then go DataPro > Documentation")
-	print("If you find a bug report it to me JamesWa#2406")
 	print("<3")
 	
 	warn("DataPro may not work fully in Studio, try it in game before reporting a bug")
